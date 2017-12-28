@@ -73,5 +73,6 @@ Route::resource('users', 'User\UserController', ['except' => ['create', 'edit']]
 
 //verify users route
 Route::name('verify')->get('users/verify/{token}' , 'User\UserController@verify');
-
+//resend verify users route
+Route::name('resend')->get('users/{user}/resend' , 'User\UserController@resend');
 
