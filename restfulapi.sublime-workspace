@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"show",
+				"showAll〔function〕"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"is",
+				"isVerified〔function〕"
+			],
+			[
+				"veri",
+				"verification_token"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"reques",
+				"$request〔variable〕"
+			],
+			[
+				"kit",
+				"kitten2.jpg"
+			],
+			[
+				"random",
+				"randomElement"
+			],
+			[
+				"Tran",
+				"TransactionsTableSeeder〔class〕"
+			],
+			[
+				"Produ",
+				"ProductsTableSeeder〔class〕"
+			],
+			[
+				"mt_",
+				"mt_rand〔function〕"
+			],
+			[
+				"Cate",
+				"CategoriesTableSeeder〔class〕"
+			],
+			[
+				"num",
+				"numberBetween〔function〕"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"ver",
+				"verification_token"
+			],
+			[
+				"S",
+				"Schema"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 1147,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Seller/SellerController.php",
+			"settings":
+			{
+				"buffer_size": 1784,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/User/UserController.php",
+			"settings":
+			{
+				"buffer_size": 3204,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Exceptions/Handler.php",
+			"settings":
+			{
+				"buffer_size": 1137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+			"settings":
+			{
+				"buffer_size": 14748,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"find",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 257.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Mimoza/RESTfulAPI",
+		"/C/Users/Mimoza/RESTfulAPI/app",
+		"/C/Users/Mimoza/RESTfulAPI/app/Exceptions",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/User",
+		"/C/Users/Mimoza/RESTfulAPI/app/Traits"
+	],
+	"file_history":
+	[
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/User/UserController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Traits/ApiResponser.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/ApiController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/Buyer/BuyerController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/Transaction/TransactionController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/Product/ProductController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/Seller/SellerController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/Category/CategoryController.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/User.php",
+		"/C/Users/Mimoza/RESTfulAPI/.env",
+		"/C/Users/Mimoza/RESTfulAPI/config/database.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/seeds/ProductsTableSeeder.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/factories/TransactionFactory.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/factories/ProductFactory.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Product.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Transaction.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Seller.php",
+		"/C/Users/Mimoza/RESTfulAPI/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/seeds/UsersTableSeeder.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/factories/UserFactory.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/factories/CategoryFactory.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/seeds/CategoriesTableSeeder.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/seeds/TransactionsTableSeeder.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/seeds/DatabaseSeeder.php",
+		"/C/Users/Mimoza/Desktop/_nIu8KHX.jpeg",
+		"/C/Users/Mimoza/Desktop/image.jpg",
+		"/C/Users/Mimoza/RESTfulAPI/database/migrations/2017_12_19_182809_category_product_table.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/migrations/2017_12_19_164926_create_transactions_table.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/migrations/2017_12_19_164905_create_products_table.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Buyer.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/migrations/2017_12_19_164812_create_categories_table.php",
+		"/C/Users/Mimoza/RESTfulAPI/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Providers/AppServiceProvider.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Category.php",
+		"/C/Users/Mimoza/RESTfulAPI/vendor/mockery/mockery/library/Mockery/Container.php",
+		"/C/Users/Mimoza/RESTfulAPI/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/C/Users/Mimoza/RESTfulAPI/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Http/Controllers/Controller.php",
+		"/C/Users/Mimoza/RESTfulAPI/app/Providers/RouteServiceProvider.php",
+		"/E/RESTfulAPI/app/Providers/RouteServiceProvider.php",
+		"/E/RESTfulAPI/.env",
+		"/C/Users/Mimoza/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/C/Users/Mimoza/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/E/RESTfulAPI/app/User.php",
+		"/E/RESTfulAPI/test.test",
+		"/C/wamp64/www/Todos/resources/views/todos.blade.php",
+		"/C/wamp64/www/Todos/resources/views/new.blade.php",
+		"/C/wamp64/www/Todos/resources/views/welcome.blade.php",
+		"/C/wamp64/www/Todos/database/migrations/2017_12_06_100005_create_todos_table.php",
+		"/C/wamp64/www/Todos/resources/views/layout.blade.php",
+		"/C/wamp64/www/Todos/.env",
+		"/C/wamp64/www/Todos/app/Http/Controllers/TodosController.php",
+		"/C/wamp64/www/Todos/.env.example",
+		"/C/wamp64/www/Todos/database/factories/TodosFactory.php",
+		"/C/wamp64/www/Todos/database/seeds/TodosTableSeeder.php",
+		"/C/wamp64/www/Todos/database/seeds/DatabaseSeeder.php",
+		"/C/wamp64/www/Todos/app/Providers/AppServiceProvider.php",
+		"/C/wamp64/www/Todos/app/Http/Controllers/PagesController.php"
+	],
+	"find":
+	{
+		"height": 60.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"UNAVAILABLE_PRODUCT"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/Seller/SellerController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1117,
+								1117
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/User/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2390,
+								2390
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2976.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Exceptions/Handler.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1102,
+								1102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 911.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4740,
+								4740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4870.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 60.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "restfulapi.sublime-project",
+	"replace":
+	{
+		"height": 116.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"builder",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php"
+			],
+			[
+				"container",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Container\\Container.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
