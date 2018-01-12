@@ -17,6 +17,9 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
+Route::name('test')->post('username', 'Test\TestController@store');
+Route::name('test')->get('usernames', 'Test\TestController@index');
+
 //Buyers 
 Route::resource('buyers', 'Buyer\BuyerController', ['only' => ['index', 'show']]);
 	//Get transactions for a buyer. For example: url\buyer\{id}\transactions
