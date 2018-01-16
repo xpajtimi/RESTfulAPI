@@ -164,9 +164,17 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
         /*
          * Package Service Providers...
          */
+
+        //Use Schema through laravel artisan command
+        Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
+
+        //Spattie Fractal Service Provider
+        Spatie\Fractal\FractalServiceProvider::class,
+
 
         /*
          * Application Service Providers...

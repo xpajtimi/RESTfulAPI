@@ -10,7 +10,10 @@
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "5.5.*",
         "laravel/homestead": "^7.0",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "league/fractal": "^0.17.0",
+        "spatie/laravel-fractal": "^5.3",
+        "thedevsaddam/laravel-schema": "^2.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
