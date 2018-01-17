@@ -25,10 +25,40 @@ class ProductTransformer extends TransformerAbstract
             'creationDate' => (string)$product->created_at,
             'lastChanged' => (string)$product->updated_at,
             'deletedDate' => isset($product->deleted_at) ? (string) $product->deleted_at : null,
+
+            'links' => [
+                [
+                    'rel' => 'self',
+                    'href' => route('products.show', $product->id),
+                ],  
+
+                [
+                    'rel' => 'product.buyers',  
+                    'href' => route('product.buyers.index', $product->id),
+                ],
+
+
+                [
+                    'rel' => 'product.categories',  
+                    'href' => route('product.categories.index', $product->id),
+                ],
+
+                [
+                    'rel' => 'product.transactions',  
+                    'href' => route('product.transactions.index', $product->id),
+                ],
+
+                [
+                    'rel' => 'seller',  
+                    'href' => route('sellers.show', $product->seller_id),
+                ], 
+
+
+            ]
         ];
     }
 
-    public static function originalAttritube($index)
+    public static function originalAttribute($index)
     {
         $attributes = [
             'identifier' => 'id',
@@ -41,6 +71,24 @@ class ProductTransformer extends TransformerAbstract
             'creationDate' => 'created_at',
             'lastChanged' => 'updated_at',
             'deletedDate' => 'deleted_at',
+        ];
+
+        return isset($attributes[$index]) ? $attributes[$index] : null;
+    }
+
+    public static function transformedAttribute($index)
+    {
+        $attributes = [
+            'id' => 'identifier',
+            'name' => 'title',
+            'description' => 'details',
+            'quantity' => 'stock',
+            'status' => 'status',
+            'image' => 'picture',   
+            'seller_id' => 'seller',
+            'created_at' => 'creationDate',
+            'updated_at' => 'lastChanged',
+            'deleted_at' => 'deletedDate',
         ];
 
         return isset($attributes[$index]) ? $attributes[$index] : null;

@@ -67,9 +67,9 @@ Route::resource('products', 'Product\ProductController', ['only' => ['index', 's
 //Transactions
 Route::resource('transactions', 'Transaction\TransactionController', ['only' => ['index', 'show']]);
 	//Get categories for a specific transaction. For example: url\transactions\{id}\categories
-	Route::resource('transactions.categories', 'Transaction\TransactionCategoryController', ['only' => ['index']]);
+	Route::resource('transaction.categories', 'Transaction\TransactionCategoryController', ['only' => ['index']]);
 	//Get the seller for a specific transaction. For example: url\transactions\{id}\sellers
-	Route::resource('transactions.seller', 'Transaction\TransactionSellerController', ['only' => ['index']]);
+	Route::resource('transaction.seller', 'Transaction\TransactionSellerController', ['only' => ['index']]);
 
 //Users
 Route::resource('users', 'User\UserController', ['except' => ['create', 'edit']]);
