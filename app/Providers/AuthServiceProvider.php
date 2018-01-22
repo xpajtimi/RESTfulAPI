@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use Carbon\Carbon;
+use Laravel\Passport\Passport;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
@@ -25,6 +27,19 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Passport::routes();
+        Passport::tokensExpireIn(Carbon::now()->addMinutes(30));
+        Passport::refreshTokensExpireIn(Carbon::now()->addDays(30));
+        Passport::enableImplicitGrant();
+
+        Passport::tokensCan([
+            'purchase-product' => 'Create a new transaction for a specific product',
+            'manage-products'  => 'Crete, read, update, and delete products (CRUD)',
+            'manage-account'   => 'Read your account data, id, name, email, if verified, and if 
+                                   admin (cannot read password). Modify your account data(email and password).
+                                   Cannot delete your account.', 
+            'read-general'     => 'Read general information like categories, purchased products, selling products, 
+                                   your transactions (purchases and sales)',
+        ]);
     }
 }

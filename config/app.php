@@ -168,6 +168,8 @@ return [
         /*
          * Package Service Providers...
          */
+        // Laravel ppassport
+        Laravel\Passport\PassportServiceProvider::class,
 
         //Use Schema through laravel artisan command
         Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
